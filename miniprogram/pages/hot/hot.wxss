@@ -1,0 +1,2 @@
+/* miniprogram/pages/hot/hot.wxss */
+page{background: linear-gradient(#2cb5e8,#1fc8db,#9fb8ad)}

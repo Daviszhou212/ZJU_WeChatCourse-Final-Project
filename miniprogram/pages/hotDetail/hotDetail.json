@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "musicPlayer":"../../component/musicPlayer/musicPlayer",
+    "songItem":"../../component/songItem/songItem"
+  }
+}

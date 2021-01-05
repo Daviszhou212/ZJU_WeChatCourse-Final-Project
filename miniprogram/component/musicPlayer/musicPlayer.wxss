@@ -1,0 +1,59 @@
+/* component/musicPlayer/musicPlayer.wxss */
+.player{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  height: 80rpx;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10rpx 0;
+  display: flex;
+  justify-content: space-between;
+}
+.music-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20rpx;
+  width:500rpx;
+}
+.p-left{
+  display: flex;
+}
+.music-pic{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50rpx;
+  margin-left: 30rpx;
+}
+.music-artist{
+  font-size: 25rpx;
+  color: #6a6a6a;
+  font-weight: bold;
+}
+.music-name{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.p-right{
+  align-self: center;
+  margin-right: 30rpx;
+}
+.p-right image{
+  width:75rpx;
+  height:75rpx;
+}
+.playing{
+  animation: playing 3.5s linear infinite;
+  animation-play-state: running;
+}
+.paused{
+  animation:playing 3.5s linear infinite;
+  animation-play-state: paused;
+}
+@keyframes playing{
+  0%{-webkit-transform: rotate(0deg);}
+  25%{-webkit-transform: rotate(90deg);}
+  50%{-webkit-transform: rotate(1800deg);}
+  75%{-webkit-transform: rotate(270deg);}
+  100%{-webkit-transform: rotate(360deg);}
+}

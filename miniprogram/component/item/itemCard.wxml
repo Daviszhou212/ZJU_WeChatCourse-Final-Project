@@ -1,0 +1,15 @@
+<!--component/item/itemCard.wxml-->
+<view bindtap="handleHot">
+  <view class="author">{{item.name}}</view>
+  <view class="content">
+    <view class="song-list">
+      <view class="song" wx:for="{{item.songs}}" wx:key="index" wx:for-item="song">
+        <text>{{song.id}} -- </text>
+        <text>{{song.title}}</text>
+      </view>
+    </view>
+   <view class="profile">
+     <image class="banner" mode="aspectFit" src="{{item.src}}"/>
+   </view>
+  </view>
+</view>

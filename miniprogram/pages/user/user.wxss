@@ -1,0 +1,59 @@
+/* miniprogram/pages/user/user.wxss */
+page{background-color: #F4F4F4}
+.amountBg{
+  height:500rpx;
+  align-items: center;
+}
+.userinfo-nickname{
+  position: relative;
+  left:20rpx;
+  top:-43px;
+  font-size:70rpx;
+  font-weight: unset;
+  background-color: #F4F4F4;
+  color:black
+}
+.userinfo-avatar{
+  width:150rpx;
+  height: 150rpx;
+  position: relative;
+  margin-left: 20px;
+}
+.account{
+  width: 100%;
+  height: 200rpx;
+  color: #ffffff;
+  align-content: center;
+}
+.nav{
+ width:15px;
+ color: #ffffff;
+}
+.content{
+  background-color: #F4F4F4;
+  height: 90px;
+  border-radius: 10rpx;
+}
+.order{
+  width: 94%;
+  height: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  margin-left: 3%;
+}
+.recent{
+  width: 25%;
+  font-size: 13px;
+}
+
+.UserIn{
+  width:50rpx;
+  position: relative;
+  top:200rpx;
+  align-content: center;
+}

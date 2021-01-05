@@ -1,0 +1,4 @@
+/* miniprogram/pages/redirect/redirect.wxss */
+.audioPlay{
+  margin: 20rpx;
+}

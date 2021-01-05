@@ -1,0 +1,30 @@
+/* component/broadcastItem/broadcastItem.wxss */
+.broad-item{
+  width:320rpx;
+  height:320rpx;
+  display:flex;
+  align-content: center;
+  background-size: 100% 100%;
+  position: relative;
+  justify-content: center;
+  border-radius: 50rpx;
+}
+
+.broad-item text{
+  color: white;
+  display:flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.broad-item::after{
+ 
+  position: absolute;
+  top:0;
+  left:0;
+  content:'';
+  z-index: 0;
+  width:100%;
+  border-radius: 50rpx;
+  background-color: rgba(0,0,0,0.5);height:100%;
+}
