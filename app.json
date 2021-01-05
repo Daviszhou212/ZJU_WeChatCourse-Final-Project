@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/hot/hot",
+    "pages/user/user",
+    "pages/broadcast/broadcast",
+    "pages/redirect/redirect",
+    "pages/hotDetail/hotDetail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0AF",
+    "backgroundColor": "#FFF",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/broadcast/broadcast",
+        "text": "电台"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户"
+      }
+    ]
+  }
+}
